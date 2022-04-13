@@ -1,3 +1,6 @@
+"""
+    Read images, videos and webcam
+"""
 import cv2
 
 
