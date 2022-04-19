@@ -37,7 +37,7 @@ def show_image_with_circle(img):
     radius = 30
     thickness = 5
     cv2.circle(img, center, radius, BGR_RED, thickness)
-    cv2.imshow("Image with a rectangle", img)
+    cv2.imshow("Image with a circle", img)
 
 
 def show_image_with_text(img):
@@ -45,7 +45,7 @@ def show_image_with_text(img):
     font_scale = 0.5
     thickness = 1
     cv2.putText(img, 'Hello world', start, cv2.FONT_HERSHEY_COMPLEX, font_scale, BGR_RED, thickness)
-    cv2.imshow("Image with a rectangle", img)
+    cv2.imshow("Image with text", img)
 
 
 img_ = np.zeros((512, 512, 3), np.uint8)
