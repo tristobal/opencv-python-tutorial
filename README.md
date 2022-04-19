@@ -4,5 +4,7 @@
 
 ## OpenCV conventions
 
-In OpenCV the X is positive from left ro right, but Y is from top to bottom. So the origin of the images is the upper
-left corner
+* The RBG color model standard for OpenCV is: Blue, Green, Red (in that order).
+* In OpenCV the X is positive from left ro right, but Y is from top to bottom. So the origin of the images is the upper
+  left corner.
+* The image as matrix is [y, x]
