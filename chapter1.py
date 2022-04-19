@@ -31,7 +31,7 @@ def show_webcam():
     cap = cv2.VideoCapture(first_webcam_id)
     cap.set(width_id, 640)
     cap.set(height_id, 480)
-    cap.set(brightness_id, 100)
+    cap.set(brightness_id, 0)
   
     while True:
         success, img = cap.read()

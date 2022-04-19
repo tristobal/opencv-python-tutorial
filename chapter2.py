@@ -2,7 +2,7 @@
     Basic Functions
 """
 
-# Workaround for OpenCV imports in Pycharm
+# Workaround for OpenCV imports in PyCharm
 import cv2.cv2 as cv2
 import numpy as np
 
