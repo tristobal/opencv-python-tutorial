@@ -5,9 +5,7 @@
 import cv2.cv2 as cv2
 import numpy as np
 
-BGR_BLUE = (255, 0, 0)
-BGR_GREEN = (0, 255, 0)
-BGR_RED = (0, 0, 255)
+from utils import BGR_BLUE, BGR_GREEN, BGR_RED
 
 
 def show_image_with_shape(img):
