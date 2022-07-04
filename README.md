@@ -8,3 +8,7 @@
 * In OpenCV the X is positive from left ro right, but Y is from top to bottom. So the origin of the images is the upper
   left corner.
 * The image as matrix is [y, x]
+* In OpenCV HSL have the following values:
+  * Hue [0, 180]
+  * Saturation [0, 255]
+  * Value [0, 255]
